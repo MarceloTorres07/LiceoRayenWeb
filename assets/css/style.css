@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+  height: 150px;             /* altura del header (ajústala a gusto) */
+  background: #000;         /* tu color */
+    color: #fff;
+  display: flex;            /* activa flexbox */
+  align-items: center;      /* centra verticalmente el contenido */
+  padding: 0 24px;          /* margen lateral */
+}
+navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: white;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    text-align: center;
+}
+
+logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;       /* empuja el menú a la derecha */
+}
+
+logo img {
+  max-height: 64px;         /* SIEMPRE menor que el header (96px) */
+  width: auto;
+  display: block;           /* evita espacio extra bajo la imagen */
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+body {
+  background-image: url("https://www.radiochiloe.cl/wp-content/uploads/2022/03/2022-03-22_22h10_41-e1648068344335.png");
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat;
+}
