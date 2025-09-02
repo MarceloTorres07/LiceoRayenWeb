@@ -4,32 +4,91 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LIceo Rayen Mapu</title>
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <header>
-        
-    <navbar>
-        <div class="logo">
-            <img src="assets/image/images.png" alt="Logo" />
-        </div> 
+    <header class="bg-black">
+  <div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center py-2">
+      <!-- Logo -->
+      
 
-    </navbar>
-    </header>
+      <!-- Botón hamburguesa -->
+      <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuResponsive" aria-controls="menuResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container-fluid">
+    <!-- Logo o marca -->
+    
+    <div class="navbar-brand">
+        <img src="assets/image/images.png" alt="Logo" style="height: 90px;">
+      </div>
+    <a class="navbar-brand" href="#">Liceo Rayen Mapu</a>
+    
 
 
-<main>
-    
-    <h1>Liceo Rayen Map</h1>
-    <p>parrafo de prueba para la pagina</p>
-    
-    
+    <!-- Botón hamburguesa -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuResponsive" aria-controls="menuResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú alineado a la derecha -->
+    <div class="collapse navbar-collapse justify-content-end" id="menuResponsive">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdownInstitucion" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            INSTITUCIÓN
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end bg-black" aria-labelledby="dropdownInstitucion">
+            <li><a class="dropdown-item" href="#">Historia</a></li>
+            <li><a class="dropdown-item" href="#">Misión y Visión</a></li>
+            <li><a class="dropdown-item" href="#">Equipo Directivo</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">INSTITUCIÓN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">ÁREA H.C</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">ÁREA TÉCNICA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">TALLERES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">ÁREA AMBIENTAL</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </div>
+</header>
+
+
+
+
+<main class="container text-center py-5">
+  <h1>Liceo Rayen Mapu</h1>
+  <p>Parrafo de prueba para la página</p>
 </main>
 
-<footer>
-    <p>&copy; 2025 web. Todos los derechos reservados.</p>
+
+<footer class="bg-black text-white text-center py-3 mt-auto">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Web. Todos los derechos reservados.</p>
+  </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </body>
 
